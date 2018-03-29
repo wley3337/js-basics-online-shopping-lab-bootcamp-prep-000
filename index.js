@@ -30,8 +30,8 @@ function viewCart() {
       
      for (var i = 0; i < tempCart.length; i++){ 
        viewCartList.push(
-      ` ${Object.key(tempCart)[i]} at ${Object.values(tempCart)[i]}`
-      );
+        ` ${Object.key(tempCart)[i]} at ${Object.values(tempCart)[i]}`
+       );
      }
     // I shouldn't need this second for loop because the array returns a camama delineated list with nothing on the end. 
     //for (; i=== tempCart.length;i++) {viewCartList.push(`${tempCart.pop()}.`);
