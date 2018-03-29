@@ -33,7 +33,7 @@ function viewCart() {
       ` ${Object.key(tempCart)[${i-1}]} at ${Object.values(tempCart)[${i-1}]}`
       );
      }
-     for (; i=== tempCart.length;i++) {viewCartList.push(`${tempCart.shift()}.`);
+     for (; i=== tempCart.length;i++) {viewCartList.push(`${tempCart.pop()}.`);
 }
       return `In your cart, you have${viewCartList}.`;
     
