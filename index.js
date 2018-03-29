@@ -28,7 +28,6 @@ function viewCart() {
      var viewCartList = [];
       
      for (var i = 0; i < tempCart.length; i++){ 
-       
        viewCartList.push(
       ` ${Object.key(tempCart)[i]} at ${Object.values(tempCart)[i]}`
       );
