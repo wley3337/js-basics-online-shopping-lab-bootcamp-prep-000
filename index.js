@@ -35,7 +35,9 @@ function viewCart() {
      }
     // I shouldn't need this second for loop because the array returns a camama delineated list with nothing on the end. 
     //for (; i=== tempCart.length;i++) {viewCartList.push(`${tempCart.pop()}.`);
-}
+
+    
+  }
       return `In your cart, you have${viewCartList}.`;
     
     }
