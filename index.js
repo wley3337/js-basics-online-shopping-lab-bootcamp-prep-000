@@ -19,7 +19,7 @@ function viewCart() {
   // write your code here
   //In your cart, you have bananas at $17, pancake batter at $5, and eggs at $49.
   if (cart.length === 0){
-    return "Your Shopping cart is empty.";
+    return "Your shopping cart is empty.";
   } else {
   //for loop that recalls each object and places it into the string In your cart, you have      . 
       
