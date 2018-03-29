@@ -23,7 +23,7 @@ function viewCart() {
   } else {
   //for loop that recalls each object and places it into the string In your cart, you have      . 
       
-     var tempCart = Ojbect.assign({}, cart);
+     var tempCart = Ojbect.assign ({}, cart);
       
      var viewCartList = [];
       
