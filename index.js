@@ -27,13 +27,14 @@ function viewCart() {
       
      var viewCartList = [];
       
-     for (var i = 1; i < tempCart.length; i++){ 
+     for (var i = 0; i < tempCart.length; i++){ 
        
        viewCartList.push(
-      ` ${Object.key(tempCart)[${i-1}]} at ${Object.values(tempCart)[${i-1}]}`
+      ` ${Object.key(tempCart)[i]} at ${Object.values(tempCart)[i]}`
       );
      }
-     for (; i=== tempCart.length;i++) {viewCartList.push(`${tempCart.pop()}.`);
+    // I shouldn't need this second for loop because the array returns a camama delineated list with nothing on the end. 
+    //for (; i=== tempCart.length;i++) {viewCartList.push(`${tempCart.pop()}.`);
 }
       return `In your cart, you have${viewCartList}.`;
     
